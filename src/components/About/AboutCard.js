@@ -8,33 +8,32 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Olá a todos, eu sou<span className="purple"> Darlan Carvalho </span>
+            de <span className="purple"> Salvador, Bahia, Brasil!</span>
+            <br />Sou um estudante de Desenvolvimento Back-End na Unopar e Análise e desenvolvimento de sistemas na Unifacs
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Atualmente trabalho como Desenvolvedor Full-Stack - Estágio no Hospital Martagão Gesteira
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Além de codar e estudar, também gosto de:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Jogar videogames
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Praticar atividades físicas
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Viajar
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Não há nada melhor do que a adversidade. Cada derrota, cada mágoa, cada perda, contém sua própria semente,
+            sua própria lição de como melhorar seu desempenho na próxima vez."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Malcolm X</footer>
         </blockquote>
       </Card.Body>
     </Card>
