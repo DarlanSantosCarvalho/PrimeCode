@@ -9,10 +9,10 @@ import {
   DiHtml5,
   DiNpm,
   DiGit,
+  DiMsqlServer,
 } from "react-icons/di";
-import {
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiTypescript, SiSelenium, SiCypress } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -25,6 +25,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -43,6 +49,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNpm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSelenium />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress />
       </Col>
     </Row>
   );

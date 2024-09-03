@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,31 +16,24 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Minha paixão pela programação veio desde cedo, quando criança,
-              sempre questionava como os jogos ou sites que eu mais acessava eram feitos
+              sempre questionava como os jogos ou sites que eu mais acessava
+              eram feitos
               <br />
-              <br />Hoje eu possuo fluência em
+              <br />
+              Hoje eu possuo fluência em
               <i>
-                <b className="purple"> HTML, CSS e Javascript </b>
+                <b className="purple"> HTML, CSS e Javascript e Typescript </b>
               </i>
               <br />
               <br />
-              Hoje meus estudos estão direcionados à &nbsp;
+              Possuo experiência com &nbsp;
               <i>
-                <b className="purple">Desenvolvimento Front-End e Full-Stack </b>
+                <b className="purple">Desenvolvimento Full-Stack </b>
               </i>
               <br />
               <br />
-              Nos últimos meses estive estudando e aprendendo o Back-End com <b className="purple">Node.js</b>,
-              <i>
-                <b className="purple">
-                  {" "}
-                  bibiliotecas e frameworks Javascript modernos,
-                </b>
-              </i>
-              &nbsp; como
-              <i>
-                <b className="purple"> React.js e Next.js</b>
-              </i>
+              Possuo projetos em que utilizo{" "}
+              <b className="purple">Node.js, Express, ReactJS e NextJS</b>{" "}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -56,7 +46,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Me adiciona lá?!</h1>
             <p>
-              Sinta-se à vontade para <span className="purple">se conectar </span>comigo
+              Sinta-se à vontade para{" "}
+              <span className="purple">se conectar </span>comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
