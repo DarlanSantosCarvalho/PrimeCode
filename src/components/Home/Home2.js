@@ -45,7 +45,7 @@ function Home2() {
               Entre em contato e vamos resolver o seu problema!
             </h3>
             <p>
-              neneutecnologia@hotmail.com
+              neneutecnologia@outlook.com
             </p>
           </Col>
         </Row>
