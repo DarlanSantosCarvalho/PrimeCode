@@ -7,7 +7,7 @@ function AboutCardSaaS() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Bem-vindo à <span className="purple">PrimeCode</span> — uma plataforma desenvolvida com o objetivo de transformar tarefas complexas em processos simples, intuitivos e eficientes.
+            Bem-vindo à <span className="purple">Neneu Tecnologia LTDA</span> — uma plataforma desenvolvida com o objetivo de transformar tarefas complexas em processos simples, intuitivos e eficientes.
             <br />
             <br />
             Nosso sistema surgiu da experiência direta com os desafios enfrentados por empresas que buscavam automatizar seus fluxos, integrar informações e ganhar agilidade no dia a dia.
@@ -22,7 +22,7 @@ function AboutCardSaaS() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Soluções simples para problemas complexos — é nisso que acreditamos."
           </p>
-          <footer className="blockquote-footer">Equipe PrimeCode</footer>
+          <footer className="blockquote-footer">Equipe Neneu Tecnologia LTDA</footer>
         </blockquote>
       </Card.Body>
     </Card>

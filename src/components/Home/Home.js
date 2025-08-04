@@ -23,7 +23,7 @@ function Home() {
 
               <h1 className="heading-name">
                Sejam bem-vindos ao
-                <strong> PrimeCode</strong>
+                <strong> Neneu Tecnologia LTDA</strong>
               </h1>
 
               <h1 className="heading-name">

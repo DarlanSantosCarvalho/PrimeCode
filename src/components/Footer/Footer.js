@@ -8,7 +8,7 @@ function Footer() {
         <Row className="justify-content-center text-center">
           <Col md={12}>
             <p style={{ marginBottom: "5px", fontWeight: "bold" }}>
-              PrimeCode © {new Date().getFullYear()}
+              Neneu Tecnologia LTDA © {new Date().getFullYear()}
             </p>
             <p>CNPJ: 54.945.818/0001-06</p>
             <p>Contato: (75) 3631-6094</p>
