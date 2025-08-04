@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import saas from "../../Assets/saas.png";
 import Tilt from "react-parallax-tilt";
-import Footer from "../Footer/Footer";
 
 function Home2() {
   return (
