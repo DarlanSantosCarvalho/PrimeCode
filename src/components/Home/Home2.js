@@ -30,7 +30,7 @@ function Home2() {
               <br />
               <br />
               Estamos em constante evolução para garantir que você tenha sempre o que há de melhor em&nbsp;
-              <b className="purple">performance, usabilidade e inovação.</b>
+              <b className="purple">performance, usabilidade, criatividade e inovação.</b>
             </p>
           </Col>
           <Col mt={4} className="myAvtar">
