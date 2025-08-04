@@ -1,35 +1,32 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
-function AboutCard() {
+function AboutCardSaaS() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, eu sou<span className="purple"> Darlan Carvalho </span>
-            de <span className="purple"> Salvador, Bahia, Brasil!</span>
-            <br />
-            Sou um estudante de Desenvolvimento Back-End na Unopar e Análise e
-            formado em Análise e desenvolvimento de sistemas pela Universidade
-            Salvador (Unifacs)
-            <br />
-            Atualmente trabalho como Analista de Qualidade de Software
+            Bem-vindo à <span className="purple">PrimeCode</span> — uma plataforma desenvolvida com o objetivo de transformar tarefas complexas em processos simples, intuitivos e eficientes.
             <br />
             <br />
+            Nosso sistema surgiu da experiência direta com os desafios enfrentados por empresas que buscavam automatizar seus fluxos, integrar informações e ganhar agilidade no dia a dia.
+            <br />
+            <br />
+            Utilizamos tecnologias modernas como <span className="purple">C#, React, Next.js, Node.js</span> e banco de dados escaláveis para garantir desempenho, segurança e flexibilidade.
+            <br />
+            <br />
+            Acreditamos que a tecnologia deve servir ao usuário — e é por isso que estamos em constante evolução, ouvindo nossos clientes e entregando soluções cada vez melhores.
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Não há nada melhor do que a adversidade. Cada derrota, cada mágoa,
-            cada perda, contém sua própria semente, sua própria lição de como
-            melhorar seu desempenho na próxima vez."{" "}
+            "Soluções simples para problemas complexos — é nisso que acreditamos."
           </p>
-          <footer className="blockquote-footer">Malcolm X</footer>
+          <footer className="blockquote-footer">Equipe PrimeCode</footer>
         </blockquote>
       </Card.Body>
     </Card>
   );
 }
 
-export default AboutCard;
+export default AboutCardSaaS;

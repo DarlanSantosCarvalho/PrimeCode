@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -14,15 +15,19 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Olá mundo!{" "}
+                Olá!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-               Eu sou
-                <strong className="main-name"> Darlan Carvalho</strong>
+               Sejam bem-vindos ao
+                <strong> PrimeCode</strong>
+              </h1>
+
+              <h1 className="heading-name">
+                <strong className="main-name">Entregamos a solução que você precisa!</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -42,6 +47,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Footer />
     </section>
   );
 }

@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import saas from "../../Assets/saas.png";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
 function Home2() {
   return (
@@ -12,75 +11,43 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Deixe com que eu me<span className="purple"> introduza</span>
+              Uma solução <span className="purple">inteligente</span> para o seu negócio
             </h1>
             <p className="home-about-body">
-              Minha paixão pela programação veio desde cedo, quando criança,
-              sempre questionava como os jogos ou sites que eu mais acessava
-              eram feitos
+              Nosso sistema nasceu com o propósito de **simplificar tarefas repetitivas**, 
+              otimizar a rotina de trabalho e oferecer uma plataforma que **cresce junto com você**.
               <br />
               <br />
-              Hoje eu possuo fluência em
+              Desenvolvido com as tecnologias mais modernas do mercado, como&nbsp;
               <i>
-                <b className="purple"> HTML, CSS e Javascript e Typescript </b>
+                <b className="purple">React, Next.js, C#, Node.js, PostgreSQL e .NET Framework</b>
+              </i>, nosso SaaS é capaz de atender desde pequenos empreendedores até grandes times.
+              <br />
+              <br />
+              Nosso foco é entregar uma experiência intuitiva, ágil e segura — com recursos como&nbsp;
+              <i>
+                <b className="purple">automação de processos, dashboards em tempo real</b> e integrações via API.
               </i>
               <br />
               <br />
-              Possuo experiência com &nbsp;
-              <i>
-                <b className="purple">Desenvolvimento Full-Stack </b>
-              </i>
-              <br />
-              <br />
-              Possuo projetos em que utilizo{" "}
-              <b className="purple">Node.js, Express, ReactJS e NextJS</b>{" "}
+              Estamos em constante evolução para garantir que você tenha sempre o que há de melhor em&nbsp;
+              <b className="purple">performance, usabilidade e inovação.</b>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col mt={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={saas} className="img-fluid" alt="saas" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Me adiciona lá?!</h1>
+            <h3 className="purple">
+              Entre em contato e vamos resolver o seu problema!
+            </h3>
             <p>
-              Sinta-se à vontade para{" "}
-              <span className="purple">se conectar </span>comigo
+              administrativo@maisconsultconteadm.com.br
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/DarlanSantosCarvalho"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/darlan-santos-de-carvalho-0231771a6/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/darlan379/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>

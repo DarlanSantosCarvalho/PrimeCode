@@ -6,13 +6,14 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "Full-Stack Developer",
+          "Gestão de condomínios",
+          "Vendas E-commerce",
+          "ERP e Gestão Empresarial",
+          "Finanças"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 120,
       }}
     />
   );
