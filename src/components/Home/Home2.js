@@ -45,7 +45,7 @@ function Home2() {
               Entre em contato e vamos resolver o seu problema!
             </h3>
             <p>
-              administrativo@maisconsultconteadm.com.br
+              neneutecnologia@hotmail.com
             </p>
           </Col>
         </Row>
